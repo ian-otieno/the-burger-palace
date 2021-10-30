@@ -1,0 +1,52 @@
+ul{
+ list-style-type: none; 
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
+ background-color: green;
+ font-size: 25px;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.list{
+    float: right;
+}
+#bur{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+#ger{
+    color: yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#img1{
+    
+    height: 400px;
+    width: 200px;
+}
+.offers{
+    float: left;
+    width: 33.33%;
+
+}
+#par1{
+    border: solid black 1px;
+    border-radius: 2px;
+    margin-left: 4px;
+
+}
+.menu1, .menu2{
+    display: flex;
+    justify-content: space-between;
+}
+#burger{
+    border: solid black 1px;
+}
