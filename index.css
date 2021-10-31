@@ -1,10 +1,18 @@
+
+body{
+    align-items: center;
+    width: 900px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
 ul{
  list-style-type: none; 
  margin: 0;
  padding: 0;
  overflow: hidden;
- background-color: green;
+ background-color: white;
  font-size: 25px;
+ 
 }
 li{
     float: left;
@@ -15,9 +23,24 @@ li a{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    color: black;
+}
+#burgers{
+   margin-top: 20px;
+}
+#order-par{
+    margin-left: 30px;
+    margin-top: 50px;
+}
+#order-par p{
+    font-size: 20px;
 }
 .list{
     float: right;
+}
+.order{
+    display: flex;
+    justify-content: space-between;
 }
 #bur{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -31,22 +54,79 @@ li a{
     
     height: 400px;
     width: 200px;
+    margin-right: 250px;
+  
+
 }
 .offers{
-    float: left;
-    width: 33.33%;
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    
 
 }
 #par1{
     border: solid black 1px;
-    border-radius: 2px;
+    border-radius: 40px;
     margin-left: 4px;
-
+    padding: 15px;
+    text-align: center;
+    margin-top: 80px;  
 }
+#par1 h2{
+    color: brown;
+}
+ .menu{
+     margin-top: 30px;
+ }
+ .menu h2{
+     color: brown;
+     font-size: 35px;
+ }
+
+
 .menu1, .menu2{
     display: flex;
+    width: 90%;
     justify-content: space-between;
+    
 }
 #burger{
     border: solid black 1px;
+    margin-left: 10px;
+    border-radius: 40px;
+}
+#burger p{
+    margin-left: 10px;
+    text-align: center;
+    margin-right: 10px;
+}
+#burger h2{
+    text-align: center;
+}
+#burger img{
+    padding-top: 20px;
+    width: 250px;
+    height: 210px;
+    align-items: center;
+    padding-left: 30px;
+}
+#price{
+    margin-left: 20px;
+}
+.footer{
+    margin-top: 30px;
+}
+.sitemap{
+    margin-left: 100px;
+    padding-top: 10px;
+}
+#sitemap{
+    padding-top: 20px;
+    
+}
+
+form{
+    margin-left: 100px;
+    padding-top: 5px;
 }
