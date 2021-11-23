@@ -1,92 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>the burger palace</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
     <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
     <nav>
         <ul>
-            <li><img src="/images/logo.png" alt=""></li>
-            <li><a href="#home"><span id="bur">Bur</span><span id="ger">ger</span> </a></li>
+            <li><img src="images/logo.png" alt=""></li>
+            <li id="burgers"><a href="#home"><span id="bur">Bur</span><span id="ger">ger</span> </a></li>
             <div class="list">
-                <li><a href="#news">Home</a></li>
-                <li><a href="offers">Offers</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#offers">Offers</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li><a href="about">About</a></li>
             </div>
         </ul>
     </nav>
-   
+
     <div class="order" style="padding-top: 20px;">
-        <div>
+        <div id="order-par">
             <h2>Rain or Shine,<br>It is time to dine </h2>
             <p>We cook and deliver the tast burger <br> right away to your destination</p><br><br><br><br>
+<<<<<<< HEAD
             <button style="border-radius: 8px; padding: 6px;  background-color: orange; width: 120px;">Order now</button>
 
         </div>
         <div id="img1">
             <img  style="width: 400px; height: 600px; margin-bottom: 20px; background-color: orange;" src="/images/[CITYPNG 1.png" alt="">
+=======
+            <button style="border-radius: 4px; background-color: orange;">Order now</button>
+
+        </div>
+        <div id="img1">
+            <img style="width: 400px; height: 600px; margin-bottom: 20px; background-color: orange;" src="images/[CITYPNG 1.png" alt="">
+>>>>>>> af709ef619b1e9b4d6dfba5549d340973c02ef03
         </div>
     </div><br><br><br><br><br><br><br><br><br>
 
-    <div class="offers">
+    <div class="offers" id="offers">
         <div id="par1">
             <h2>Quality Burgers</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis imperdiet massa tincidunt nunc pulvinar sapien.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Quis imperdiet massa tincidunt nunc pulvinar sapien.</p>
         </div>
         <div id="par1">
             <h2>Fast Delvery</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Facilisis sed odio morbi quis commodo odio aenean sed adipiscing. Nunc sed blandit libero volutpat sed cras ornare arcu.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Facilisis sed odio morbi quis commodo odio aenean sed adipiscing. Nunc sed blandit
+                libero volutpat sed cras ornare arcu.</p>
         </div>
         <div id="par1">
             <h2>Delicious Meals</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Facilisis sed odio morbi quis commodo odio aenean sed adipiscing. Nunc sed blandit libero volutpat sed cras ornare arcu.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Facilisis sed odio morbi quis commodo odio aenean sed adipiscing. Nunc sed blandit
+                libero volutpat sed cras ornare arcu.</p>
         </div>
 
     </div>
 
     <div class="menu">
-        <h2 style="text-align: center;"><strong>Our Menu</strong> </h2>
+        <h2 style="text-align: center;"><strong><span style="color: black;">Our</span>  Menu</strong> </h2>
         <div class="menu1">
             <div id="burger">
-                <img src="/images/SeekPng 2.png" alt="">
+                <img src="images/SeekPng 2.png"">
                 <h2>Double Burger</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Varius sit amet mattis vulputate.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Varius sit amet mattis vulputate.</p>
+                    <h3 id="price">KSH 200  <i class="fa fa-shopping-cart" style="font-size:36px; color:gray; margin-left: 90px;"></i></h3>
             </div>
             <div id="burger">
-                <img src="/images/SeekPng 1.png" alt="">
-                <h2></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Varius sit amet mattis vulputate.</p>
+                <img src="images/SeekPng 1.png" alt="">
+                <h2>Double Burger</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Varius sit amet mattis vulputate.</p>
+                    <h3 id="price">KSH 200  <i class="fa fa-shopping-cart" style="font-size:36px; color:gray; margin-left: 90px;"></i></h3>
             </div>
             <div id="burger">
-                <img src="/images/SeekPng 3.png" alt="">
-                <h2></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Varius sit amet mattis vulputate.</p>
+                <img src="images/SeekPng 3.png" alt="">
+                <h2>Double Burger</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Varius sit amet mattis vulputate.</p>
+                    <h3 id="price">KSH 200  <i class="fa fa-shopping-cart" style="font-size:36px; color:gray; margin-left: 90px;"></i></h3>
             </div>
-        </div>
+        </div><br><br><br>
         <div class="menu2">
             <div id="burger">
-                <img src="/images/SeekPng 4.png" alt="">
+                <img src="images/SeekPng 4.png" alt="">
                 <h2>Double Burger</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Varius sit amet mattis vulputate.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Varius sit amet mattis vulputate.</p>
+                <h3 id="price">KSH 200  <i class="fa fa-shopping-cart" style="font-size:36px; color:gray; margin-left: 90px;"></i></h3>
             </div>
             <div id="burger">
-                <img src="/images/SeekPng 5.png" alt="">
+                <img src="images/SeekPng 5.png" alt="">
                 <h2>Double Burger</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Varius sit amet mattis vulputate.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Varius sit amet mattis vulputate.</p>
+                    <h3 id="price">KSH 200  <i class="fa fa-shopping-cart" style="font-size:36px; color:gray; margin-left: 90px;"></i></h3>
+
             </div>
             <div id="burger">
-                <img src="/images/SeekPng 6.png" alt="">
+                <img src="images/SeekPng 6.png" alt="">
                 <h2>Double Burger</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Varius sit amet mattis vulputate.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Varius sit amet mattis vulputate.</p>
+                    <h3 id="price">KSH 200  <i class="fa fa-shopping-cart" style="font-size:36px; color:gray; margin-left: 90px;"></i></h3>
             </div>
         </div>
-    </div>
+    </div> 
 
     <footer>
         <div class="footer">
@@ -114,5 +142,6 @@
         </div>
         <p>Copyright 2021: All Rights Reserved</p>
     </footer>
-   </body>
+</body>
+
 </html>

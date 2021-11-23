@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> af709ef619b1e9b4d6dfba5549d340973c02ef03
 body{
     align-items: center;
     width: 900px;
@@ -54,6 +58,10 @@ li a{
     height: 400px;
     width: 200px;
     margin-right: 250px;
+<<<<<<< HEAD
+=======
+  
+>>>>>>> af709ef619b1e9b4d6dfba5549d340973c02ef03
 
 }
 .offers{
@@ -70,10 +78,17 @@ li a{
     padding: 15px;
     text-align: center;
     margin-top: 80px;  
+<<<<<<< HEAD
 }
 #par1 h2{
     color: brown;
 }
+=======
+}
+#par1 h2{
+    color: brown;
+}
+>>>>>>> af709ef619b1e9b4d6dfba5549d340973c02ef03
  .menu{
      margin-top: 30px;
  }
